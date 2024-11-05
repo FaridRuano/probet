@@ -66,11 +66,11 @@ const Home = () => {
           <div className="data-form">
             <div className="input-field">
               <span>Nombre</span>
-              <input type="text"/>
+              <input type="text" required/>
             </div>
             <div className="input-field">
               <span>Email</span>
-              <input type="email"/>
+              <input type="email" required/>
             </div>
           </div>
           <div className="terms">

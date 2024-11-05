@@ -57,6 +57,18 @@ font-family: "Montserrat", sans-serif;
     align-items: center;
     flex-direction: column;
     gap: 1rem;
+    @media (max-width: 700px) {
+        width: 350px;
+    }
+}
+
+.logo-holder{
+    @media (max-width: 700px) {
+        img{
+            height: auto;
+            width: 350px;
+        }
+    }
 }
 
 .products-holder{
@@ -140,6 +152,9 @@ font-family: "Montserrat", sans-serif;
         font-size: $standar;
         font-weight: 500;
     }
+    @media (max-width: 700px) {
+        width: calc(350px - 40px);
+    }
 }
 
 .user-data{
@@ -179,6 +194,14 @@ font-family: "Montserrat", sans-serif;
     }
     .terms{
         padding: 20px 0;
+    }
+    @media (max-width: 700px) {
+        .data-form{
+            flex-direction: column;
+            .input-field{
+                width: 100%;
+            }
+        }
     }
 }
 
